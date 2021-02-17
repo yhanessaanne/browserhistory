@@ -9,6 +9,15 @@ h1 {
   font-family: Oswald, serif;
 }
 
+#navigation li {
+  display: inline;
+}
+
+#navigation a {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 h2 {
   font-family: Oswald, serif;
 }
