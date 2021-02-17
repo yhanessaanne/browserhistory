@@ -5,6 +5,15 @@ body {
   background-color: Ivory;
 }
 
+#navigation li {
+  display: inline;
+}
+
+#navigation a {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
 h1 {
   font-family: Oswald, serif;
 }
@@ -15,4 +24,22 @@ h2 {
 
 img {
   float: left;
+}
+
+.left {
+  float: left;
+  width: 300px;
+  padding: 1em;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 1em;
+}
+
+.center {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 1em;
 }
